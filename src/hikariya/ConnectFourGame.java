@@ -74,7 +74,7 @@ public class ConnectFourGame {
      * @return текущий игрок
      */
     private char getPlayer() {
-        return step % 2 == 0 ? 'G' : 'R';
+        return step % 2 == 0 ? 'R' : 'G';
     }
 
     /**
